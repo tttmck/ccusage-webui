@@ -10,7 +10,7 @@ redis.on('error', (e) => console.error('Redis:', e.message));
 const CACHE_TTL = 60;
 const CACHE_PREFIX = 'ccusage:';
 
-const CCUSAGE_PATH = process.env.CCUSAGE_PATH || '/home/pphorse/.nvm/versions/node/v22.22.2/bin/ccusage';
+const CCUSAGE_PATH = process.env.CCUSAGE_PATH || 'ccusage';
 const TIMEOUT = 30000;
 
 async function getCache(key) {

@@ -118,9 +118,9 @@ After=network.target redis.service
 
 [Service]
 Type=simple
-User=pphorse
-WorkingDirectory=/home/pphorse/projects/ccusage-dashboard
-ExecStart=/home/pphorse/.nvm/versions/node/v22.22.2/bin/node server/index.js
+User=<YOUR_USERNAME>
+WorkingDirectory=/path/to/ccusage-dashboard
+ExecStart=/usr/bin/env node server/index.js
 Environment=PORT=3001
 Restart=on-failure
 RestartSec=5

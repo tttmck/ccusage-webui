@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Environment variables
+.env
+.env.*
+
 # Runtime
 .ccusage-dashboard.pid
 
