@@ -1,6 +1,8 @@
 # ccusage-dashboard
 
 基于 [ccusage](https://ccusage.com/) 的本地用量仪表板，通过 Web 界面查看 Claude Code / Codex / OpenCode 等 AI 编程工具的 Token 用量和费用分析。
+<img width="2536" height="1239" alt="image" src="https://github.com/user-attachments/assets/1e885865-46f1-49bc-9f3b-608565a719da" />
+<img width="2541" height="1238" alt="image" src="https://github.com/user-attachments/assets/5c3bdbb1-92d9-4f0b-882b-330b759718cc" />
 
 ## 功能
 
