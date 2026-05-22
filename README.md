@@ -37,10 +37,13 @@ cd ~/projects
 git clone <repo-url> ccusage-dashboard
 cd ccusage-dashboard
 
-# 2. 安装依赖
+# 2. 安装 ccusage（如果尚未安装）
+npm install -g ccusage
+
+# 3. 安装依赖
 npm install
 
-# 3. 启动（生产模式，自动构建 + 单进程）
+# 4. 启动（生产模式，自动构建 + 单进程）
 ./ccusage.sh start
 ```
 
